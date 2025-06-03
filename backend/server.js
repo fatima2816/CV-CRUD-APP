@@ -21,7 +21,7 @@ CV.sync({force:false})
   .then(() => console.log('Database synced'))
   .catch(err => console.error('Error syncing database:', err));
   
-Employee.sync({force:false})
+Employee.sync()
   .then(() => console.log('Database synced'))
   .catch(err => console.error('Error syncing database:', err));
 
